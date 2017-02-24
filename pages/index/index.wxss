@@ -1,0 +1,13 @@
+page{
+    background: rgba(2,148,231,0.1);
+}
+.box{
+    font-family: "Microsoft YaHei UI";
+}
+.box .lists .list{
+    height: 100rpx;
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 48rpx;
+    border-bottom: 1px solid rgba(2,148,231,0.15);
+}

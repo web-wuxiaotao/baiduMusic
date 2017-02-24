@@ -1,0 +1,13 @@
+<view class="search">
+    <input type="text" value="" bindblur="blur" bindfocus="focus"/>
+    <view class="sear" style="background-size: cover;background-image: url(../image/search.png);" bindtap="search"></view>
+</view>
+
+<view class="lists">
+    <view class="list" wx:for="{{audios}}">
+        <navigator url="/pages/show/show?id={{item.songid}}">
+            <view class="title">{{item.songname}}</view>
+            <view class="author">{{item.artistname}}</view>
+        </navigator>
+    </view>
+</view>

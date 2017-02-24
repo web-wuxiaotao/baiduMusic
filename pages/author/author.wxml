@@ -1,0 +1,27 @@
+<view class="box">
+    <view class="img" style="background-size: cover;background-image:url({{box.avatar_big}});"></view>
+    <view class="name">
+        姓名：
+        <text>{{box.name}}</text>
+    </view>
+    <view class="constellation">
+        星座：
+        <text>{{box.constellation}}</text>
+    </view>
+    <view class="country">
+        国籍：
+        <text>{{box.country}}</text>
+    </view>
+    <view class="intro">
+        简介：
+        <text>{{box.intro}}</text>
+    </view>
+</view>
+<view class="audios">
+    <view class="audio" wx:for="{{audios}}">
+        <navigator url="/pages/show/show?id={{item.song_id}}">
+            <view class="image" style="background-size: cover;background-image: url({{item.pic_big}});"></view>
+            <view class="songName">{{item.title}}</view>
+        </navigator>
+    </view>
+</view>

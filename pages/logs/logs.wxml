@@ -1,0 +1,11 @@
+<view class="lists">
+    <view class="list" wx:for="{{musics}}">
+        <navigator url="/pages/show/show?id={{item.song_id}}">
+            <view class="img">
+                <image src="{{item.pic_big}}"></image>
+            </view>
+            <view class="title">{{item.title}}</view>
+            <view class="author">{{item.author}}</view>
+        </navigator>
+    </view>
+</view>

@@ -1,0 +1,46 @@
+.box{
+    font-family: "微软雅黑";
+    padding: 20rpx 15rpx;
+}
+.box .img{
+    width: 720rpx;
+    height: 720rpx;
+}
+.box .name{
+    line-height: 80rpx;
+    font-size: 36rpx;
+}
+.box .constellation{
+    line-height: 80rpx;
+    font-size: 36rpx;
+}
+.box .country{
+    line-height: 80rpx;
+    font-size: 36rpx;
+}
+.box .intro{
+    line-height: 80rpx;
+}
+.box .intro .text{
+    line-height: 1.5em;
+}
+
+.audios{
+    font-family: "Microsoft YaHei UI";
+    margin-top: 50rpx;
+}
+.audios .audio{
+    width: 220rpx;
+    margin: 0 15rpx;
+    height: 320rpx;
+    float: left;
+}
+.audios .audio .image{
+    width: 220rpx;
+    height: 240rpx;
+}
+.audios .audio .songName{
+    line-height: 80rpx;
+    color: #999999;
+    font-size: 30rpx;
+}

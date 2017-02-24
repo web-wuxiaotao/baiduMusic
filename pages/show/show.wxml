@@ -1,0 +1,27 @@
+<audio src="{{alt.file_link}}" controls id="myAudio" bindtimeupdate="time"></audio>
+
+
+<view class="name">{{info.title}}</view>
+<view class="author">
+    <navigator url="/pages/author/author?tinguid={{info.ting_uid}}">
+        {{info.author}}
+    </navigator>
+</view>
+<view class="image" style="background-size: cover;background-image: url({{info.pic_big}})"></view>
+<view class="border"></view>
+<view class="lyric">
+    <view class="lyr">
+        {{lrclink.title}}
+    </view>
+</view>
+
+
+<view class="play_pause">
+    <view class="start">{{start}}</view>
+    <view class="end">{{file_duration}}</view>
+    <progress class="progress" percent="{{percent}}"></progress>
+
+    <button class="play" style="background-size: cover;background-image: url({{play}})" bindtap="play"></button>
+    <button class="last" style="background-size: cover;background-image: url(../image/last.png)"></button>
+    <button class="next" style="background-size: cover;background-image: url(../image/next.png)"></button>
+</view>

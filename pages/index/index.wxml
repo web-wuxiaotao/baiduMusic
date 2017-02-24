@@ -1,0 +1,9 @@
+<view class="box">
+    <view class="lists">
+        <view class="list" wx:for="{{lists}}">
+            <navigator url="/pages/logs/logs?type={{item.type}}">
+                {{item.name}}
+            </navigator>
+        </view>
+    </view>
+</view>

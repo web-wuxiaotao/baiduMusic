@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/logs/logs",
+    "pages/show/show",
+    "pages/author/author"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0294E7",
+    "navigationBarTitleText": "百度音乐",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "pages/image/search.png",
+        "selectedIconPath": "pages/image/search-actived.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "榜单",
+        "iconPath": "pages/image/board.png",
+        "selectedIconPath": "pages/image/board-actived.png"
+      }
+    ],
+    "backgroundColor": "#E6F4FC",
+    "color": "#888888",
+    "selectedColor": "#333333"
+  }
+}
