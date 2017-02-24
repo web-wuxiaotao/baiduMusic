@@ -36,6 +36,7 @@
 ## 开发
 
 * 进度条及时间
+
           <!--wxml-->
           
           <view class="start">{{start}}</view>
